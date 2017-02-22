@@ -8,7 +8,7 @@ public class TestMd51 {
 		System.out.println(getMd5String(string));
 	}
 	public static  String getMd5String(String str){
-//通过Apache的codec工具类进行加密 		
+		//通过Apache的codec工具类进行加密 		
 		return DigestUtils.md5Hex(str);
 	}
 }
